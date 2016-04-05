@@ -1,0 +1,18 @@
+ n =[[889329, 150757],[806120 ,132822],[645185, 180160],[928032 ,358104],[449927,306072],[239299, 777611],[807746, 507801],[667902 ,761013]
+,[115905, 116993],[827212, 272348],[440558, 884909]]
+
+def soluti(list):
+    results = []
+    for numbers in list:
+        for num in numbers:
+            count = 0
+            count = count +num
+            results.append(count)
+        
+    return results
+    
+print soluti(n)
+
+
+#We want sum of every sublist and put it in the resuls and in the end return result
+like :-   889329 + 150757 = 1040086   and append this in results
